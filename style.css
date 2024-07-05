@@ -27,7 +27,7 @@ header {
     font-weight: bold;
     margin: 10;
     padding: 50;
-    margin-left: 200px;
+    margin-left: 75px;
 
 }
 
@@ -49,4 +49,54 @@ header {
     margin-right: 100px;
 
 }
- 
+
+.body1 {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 10%;  /* Add padding to create space on left and right */
+    gap: 50px; /* adds a gap between the text and the image */
+}
+
+
+.body1-header {
+    display: flex;
+    flex-wrap:wrap;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.text1 {
+    display: flex;
+    color: #F9FAF8;
+    font-size: small;
+    margin-bottom: 20px;
+
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background:#3882F6;
+    border: 1px solid #ddd;
+    color: white;
+    font-weight: bold;
+}
+
+.image-container {
+    flex: 1; /* Allow text container to grow */
+    display: flex;
+    justify-content: flex-end;
+    max-width: 50%;
+  
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+}
